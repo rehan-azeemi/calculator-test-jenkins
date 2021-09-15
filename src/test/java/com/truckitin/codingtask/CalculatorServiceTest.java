@@ -19,7 +19,7 @@ public class CalculatorServiceTest {
     public void testEquationTestCase(){
         Result result = calculatorService.compute(setUpEquationData());
         Assertions.assertEquals(result.getResult(),-16);
-        Assertions.assertEquals(result.getPostFix(),"4572+-*");
+        Assertions.assertEquals(result.getPostFix(),"4572+-");
     }
 
     @Test
