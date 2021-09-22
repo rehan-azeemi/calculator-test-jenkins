@@ -46,7 +46,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>calculator-docker</finalName>
+        <finalName>calculator-jenkins-docker</finalName>
     </build>
 
 </project>
